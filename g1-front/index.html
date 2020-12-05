@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="face-api.min.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+      
+    </style>
+</head>
+<body>
+  <div class="row h-100">
+    <div class="col-lg-5 b-right">
+      <div class="camera">
+        <video id="video" width="426" height="320" autoplay muted></video>
+      </div>
+      <div class="photo">
+        <img src="./user.jpg" onerror="this.src='./unknown.jpg'" alt="User Photo">
+      </div>
+    </div>
+    <div class="col-lg-7">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>#</td>
+            <th>Name</td>
+            <th>Surname</td>
+            <th>Job</th>
+            <th>Time</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Doniyor</td>
+            <td>Saidmurodov</td>
+            <td>IT Department</td>
+            <td>16:30</td>
+            <td>
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-down-left-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-5.879-2.828a.5.5 0 1 1 .707.707L6.732 9.975H9.5a.5.5 0 1 1 0 1H5.525a.5.5 0 0 1-.5-.5V6.5a.5.5 0 1 1 1 0v2.768l4.096-4.096z"/>
+              </svg>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Abdulaziz</td>
+            <td>Anvarov</td>
+            <td>Dean Office</td>
+            <td>16:42</td>
+            <td>
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-down-left-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-5.879-2.828a.5.5 0 1 1 .707.707L6.732 9.975H9.5a.5.5 0 1 1 0 1H5.525a.5.5 0 0 1-.5-.5V6.5a.5.5 0 1 1 1 0v2.768l4.096-4.096z"/>
+              </svg>
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Doniyor</td>
+            <td>Saidmurodov</td>
+            <td>IT Department</td>
+            <td>21:39</td>
+            <td>
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up-right-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.879 10.828a.5.5 0 1 1-.707-.707l4.096-4.096H6.5a.5.5 0 0 1 0-1h3.975a.5.5 0 0 1 .5.5V9.5a.5.5 0 0 1-1 0V6.732l-4.096 4.096z"/>
+              </svg>
+            </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Abdulaziz</td>
+            <td>Anvarov</td>
+            <td>Dean Office</td>
+            <td>21:42</td>
+            <td>
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up-right-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.879 10.828a.5.5 0 1 1-.707-.707l4.096-4.096H6.5a.5.5 0 0 1 0-1h3.975a.5.5 0 0 1 .5.5V9.5a.5.5 0 0 1-1 0V6.732l-4.096 4.096z"/>
+              </svg>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
