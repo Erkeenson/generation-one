@@ -1,4 +1,4 @@
-# generation-one project from Generation One | G1 team
+# Generation One | G1 - project from TISS Group
 Data Generation and Transformation for Open Data Challenge 2020 Hackathon
 
 # Our goal
