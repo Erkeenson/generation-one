@@ -7,7 +7,7 @@ System that allows users in “white list” go on and disable any actions from 
 # How it works 
  Front-End
 
-(Open with Live Server or with another Server tools!)
+(Open with Live Server or another Server tools!)
 
 ![UI Screenshot](/image.png)
 
